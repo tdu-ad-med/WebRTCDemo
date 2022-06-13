@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WebRTC demo</title>
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <p>room id: <input id="roomId" value="room0"></input></p>
+    <div>
+      <button id="cameraStart">Start Camera</button>
+      <button id="cameraStop">Stop Camera</button>
+    </div>
+    <div>
+      <button id="roomCreate">Create Room</button>
+      <button id="roomJoin">Join Room</button>
+      <button id="roomLeave">Leave Room</button> 
+    </div>
+    <div>
+      <video id="local_video" autoplay style="width: 160px; height: 120px; border: 1px solid black;"></video>
+      <video id="remote_video" autoplay style="width: 160px; height: 120px; border: 1px solid black;"></video>
+    </div>
+  </body>
+</html>
